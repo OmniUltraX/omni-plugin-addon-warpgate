@@ -1,0 +1,29 @@
+{
+  "id": "omni.addon.warpgate",
+  "version": "0.1.0",
+  "displayName": "Warpgate",
+  "icon": {
+    "light": "warpgate-light.svg",
+    "dark": "warpgate-dark.svg"
+  },
+  "kind": "addon",
+  "permissions": ["net:connect", "vault:read"],
+  "entry": {
+    "logic": "logic.js"
+  },
+  "methods": [
+    {
+      "name": "listSshTargets",
+      "permissions": ["net:connect", "vault:read"]
+    },
+    {
+      "name": "resolveSshViaGateway",
+      "permissions": ["net:connect", "vault:read"]
+    },
+    {
+      "name": "testGateway",
+      "permissions": ["net:connect", "vault:read"]
+    }
+  ],
+  "contributes": {}
+}
