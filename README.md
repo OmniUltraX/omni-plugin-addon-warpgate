@@ -9,6 +9,7 @@ OmniPanel 可选插件：`omni.addon.warpgate`（Warpgate 网关）。
 - 宿主侧维护网关列表（baseUrl / Token / loginUser / password）
 - L2：`listSshTargets` / `resolveSshViaGateway` / `testGateway`
 - SSH 直连失败后按备选顺序自动降级，也可手动指定路由
+- 插件中心已安装列表 → **设置**（`contributes.configuration.panel = warpgate.gateways`）
 
 ## 安装
 

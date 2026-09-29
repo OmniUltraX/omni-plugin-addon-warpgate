@@ -25,5 +25,10 @@
       "permissions": ["net:connect", "vault:read"]
     }
   ],
-  "contributes": {}
+  "contributes": {
+    "configuration": {
+      "title": "Warpgate",
+      "panel": "warpgate.gateways"
+    }
+  }
 }
